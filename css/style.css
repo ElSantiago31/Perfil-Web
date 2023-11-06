@@ -3,70 +3,56 @@ body::-webkit-scrollbar{
     background-color: black;
     border-radius: 10px;
 }
-
 body::-webkit-scrollbar-thumb{
     background-color: #a045dc;
     border-radius: 10px;
 }
-
 body{
     background-color: black;
 }
-
 .navbar{
     z-index: 1;
     position: fixed;
     width: 100%;
     height: 65px;
 }
-
-
-
 h1{
     padding: 20px;
 }
-
 h1:hover{
     background: linear-gradient(to right, #03001e, #7303c0, #ec38bc, #fdeff9);
     -webkit-background-clip: text;
     color: transparent;
     transition: .5s;
 }
-
 h6{
     text-align: center;
     margin-top: 5px;
 }
-
 a, a:hover, a:focus {
     color: inherit;
     text-decoration: none;
     transition: all 0.3s;
 }
-
 #logo{
     border-bottom: 1px solid white;
     border-color: white;
 }
-
 #name{
     padding-top: 1.5rem;
     text-align: center;
     color: rgba(192, 184, 184, 0.986);
 }
-
 #name:hover{
     font-size: 17px;
     color: rgb(253, 253, 253);
     transition: .5s;
 }
-
 .sidenav .sidebar-header {
     display: block;
     padding-bottom: 20px;
     background: #353a40;
 }
-
 .sidenav {
     height: 100%;
     width: 250px;
@@ -78,22 +64,18 @@ a, a:hover, a:focus {
     padding-top: 20px;
     transition: 0.5s;
 }
-
 .sidenav ul li a {
     padding: 15px;
     font-size: 1.1em;
     display: block;
 }
-
 .sidenav ul li {
     color: #fff;
 }
-
 .sidenav ul li a:hover {
     color: black;
     background: #fff;
 }
-
 .sidenav.show {
     background: #353a40;
     left: 0;
@@ -103,31 +85,18 @@ a, a:hover, a:focus {
     justify-content: space-between;
     align-items: center;
 }
-
-.main {
-    margin-left: 0;
-    padding: 20px;
-    transition: 0.5s;
-}
-.main.shifted {
-    margin-left: 250px;
-}
-
 .right{
     margin-left: 40px;
 }
-
 .subtitulos{
     font-size: 3rem;
     font-family: fantasy, cursive, Arial, Helvetica, sans-serif;
     text-align: center;
 }
-
 .redesIcons{
     display: flex;
     justify-content: center;
 }
-
 .redesIcons a{
     margin-top: 170px;
     text-decoration: none;
@@ -146,11 +115,9 @@ a, a:hover, a:focus {
 .redesIcons a:hover {
     transform: scale(1.2);
 }
-
 #sidebarCollapse2 {
     display: flex;
 }
-
 .imagenes{
     border-radius: 0.5rem;
     margin-left: 15px;
@@ -173,7 +140,6 @@ a, a:hover, a:focus {
     filter: blur(5px);
     margin: 10px;
 }
-
 .barra{
     width: 100%;
     height: 24px;
@@ -181,7 +147,6 @@ a, a:hover, a:focus {
     border: 2px solid #fff;
     overflow: hidden;
 }
-
 #barra1::after{
     content: ' ';
     width: 0;
@@ -191,14 +156,11 @@ a, a:hover, a:focus {
     position: absolute;
     animation: progress 1.5s linear forwards;
 }
-
 @keyframes progress{
     100%{
         width: 50%;
     }
-
 }
-
 #barra2::after{
     content: ' ';
     width: 0;
@@ -208,14 +170,11 @@ a, a:hover, a:focus {
     position: absolute;
     animation: progress2 1.5s linear forwards;
 }
-
 @keyframes progress2{
     100%{
         width: 85%;
     }
-
 }
-
 #barra3::after{
     content: ' ';
     width: 0;
@@ -225,14 +184,11 @@ a, a:hover, a:focus {
     position: absolute;
     animation: progress3 1.5s linear forwards;
 }
-
 @keyframes progress3{
     100%{
         width: 65%;
     }
-
 }
-
 #barra4::after{
     content: ' ';
     width: 0;
@@ -242,10 +198,36 @@ a, a:hover, a:focus {
     position: absolute;
     animation: progress4 1.5s linear forwards;
 }
-
 @keyframes progress4{
     100%{
-        width: 20%;
+        width: 37%;
     }
-
+}
+#barra5::after{
+    content: ' ';
+    width: 0;
+    background: linear-gradient(to right, #03001e, #7303c0, #ec38bc, #fdeff9);
+    border-radius: 20px;
+    height: 21px;
+    position: absolute;
+    animation: progress5 1.5s linear forwards;
+}
+@keyframes progress5{
+    100%{
+        width: 18%;
+    }
+}
+#barra6::after{
+    content: ' ';
+    width: 0;
+    background: linear-gradient(to right, #03001e, #7303c0, #ec38bc, #fdeff9);
+    border-radius: 20px;
+    height: 21px;
+    position: absolute;
+    animation: progress6 1.5s linear forwards;
+}
+@keyframes progress6{
+    100%{
+        width: 15%;
+    }
 }
