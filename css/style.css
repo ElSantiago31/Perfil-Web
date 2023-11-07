@@ -185,7 +185,7 @@ a, a:hover, a:focus {
     border-radius: 20px;
     height: 21px;
     position: absolute;
-    animation: progress 1.5s linear forwards;
+    animation: progress 2.5s linear forwards;
 }
 @keyframes progress{
     100%{
@@ -199,7 +199,7 @@ a, a:hover, a:focus {
     border-radius: 20px;
     height: 21px;
     position: absolute;
-    animation: progress2 1.5s linear forwards;
+    animation: progress2 2.5s linear forwards;
 }
 @keyframes progress2{
     100%{
@@ -213,7 +213,7 @@ a, a:hover, a:focus {
     border-radius: 20px;
     height: 21px;
     position: absolute;
-    animation: progress3 1.5s linear forwards;
+    animation: progress3 2.5s linear forwards;
 }
 @keyframes progress3{
     100%{
@@ -227,7 +227,7 @@ a, a:hover, a:focus {
     border-radius: 20px;
     height: 21px;
     position: absolute;
-    animation: progress4 1.5s linear forwards;
+    animation: progress4 2.5s linear forwards;
 }
 @keyframes progress4{
     100%{
@@ -241,7 +241,7 @@ a, a:hover, a:focus {
     border-radius: 20px;
     height: 21px;
     position: absolute;
-    animation: progress5 1.5s linear forwards;
+    animation: progress5 2.5s linear forwards;
 }
 @keyframes progress5{
     100%{
@@ -255,7 +255,7 @@ a, a:hover, a:focus {
     border-radius: 20px;
     height: 21px;
     position: absolute;
-    animation: progress6 1.5s linear forwards;
+    animation: progress6 2.5s linear forwards;
 }
 @keyframes progress6{
     100%{
