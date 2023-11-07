@@ -69,7 +69,7 @@ ScrollReveal().reveal('.cardPPT', {
 ScrollReveal().reveal('.redes', {
     origin: 'left',
     duration: 700,
-    distance: '50%',
+    distance: '33%',
     linear: 'linear',
 });
 
