@@ -63,13 +63,13 @@ ScrollReveal().reveal('.cardPython', {
 ScrollReveal().reveal('.cardPPT', {
     origin: 'right',
     duration: 700,
-    distance: '100%',
+    distance: '50%',
     linear: 'linear',
 });
 ScrollReveal().reveal('.redes', {
     origin: 'left',
     duration: 700,
-    distance: '100%',
+    distance: '50%',
     linear: 'linear',
 });
 
