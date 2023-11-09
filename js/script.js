@@ -24,53 +24,9 @@ ScrollReveal().reveal('.imgPersonal', {
     distance: '50%',
     linear: 'linear',
 });
-ScrollReveal().reveal('.imgExperiencia', {
-    origin: 'right',
-    duration: 1500,
-    distance: '33%',
-    linear: 'linear',
-});
-ScrollReveal().reveal('.imgHabilidad', {
-    origin: 'left',
-    duration: 1500,
-    distance: '33%',
-    linear: 'linear',
-});
-ScrollReveal().reveal('.imgContacto', {
-    origin: 'right',
-    duration: 1500,
-    distance: '33%',
-    linear: 'linear',
-});
-ScrollReveal().reveal('.imgcards', {
-    origin: 'bottom',
-    duration: 700,
-    distance: '33%',
-    linear: 'linear',
-});
-ScrollReveal().reveal('.imgcardsbottom', {
+ScrollReveal().reveal('.reveal', {
     origin: 'top',
-    duration: 700,
+    duration: 1500,
     distance: '33%',
     linear: 'linear',
 });
-ScrollReveal().reveal('.cardPython', {
-    origin: 'left',
-    duration: 700,
-    distance: '33%',
-    linear: 'linear',
-});
-ScrollReveal().reveal('.cardPPT', {
-    origin: 'right',
-    duration: 700,
-    distance: '100%',
-    linear: 'linear',
-});
-ScrollReveal().reveal('.redes', {
-    origin: 'left',
-    duration: 700,
-    distance: '100%',
-    linear: 'linear',
-});
-
-
